@@ -1,0 +1,14 @@
+{
+  "name": "pr-preflight",
+  "displayName": "PR Preflight",
+  "version": "0.1.0",
+  "description": "Pre-review a change the way the project's maintainers would, from a per-repository review profile built from their review history, the repository itself, and your answers.",
+  "author": {
+    "name": "eliotbyte",
+    "url": "https://github.com/eliotbyte"
+  },
+  "homepage": "https://github.com/eliotbyte/pr-preflight",
+  "repository": "https://github.com/eliotbyte/pr-preflight",
+  "license": "MIT",
+  "keywords": ["code-review", "pull-request", "maintainers", "review-profile"]
+}

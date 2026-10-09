@@ -1,0 +1,15 @@
+{
+  "name": "pr-preflight",
+  "description": "PR Preflight: pre-review a change the way the project's maintainers would",
+  "owner": {
+    "name": "eliotbyte",
+    "url": "https://github.com/eliotbyte"
+  },
+  "plugins": [
+    {
+      "name": "pr-preflight",
+      "source": "./",
+      "description": "Pre-review a change the way the project's maintainers would, from a per-repository review profile"
+    }
+  ]
+}
