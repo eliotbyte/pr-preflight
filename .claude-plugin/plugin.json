@@ -1,7 +1,7 @@
 {
   "name": "pr-preflight",
   "displayName": "PR Preflight",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Pre-review a change the way the project's maintainers would, from a per-repository review profile built from their review history, the repository itself, and your answers.",
   "author": {
     "name": "eliotbyte",

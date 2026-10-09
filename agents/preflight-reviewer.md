@@ -80,10 +80,17 @@ Report a finding only if all of these hold:
 - It points at a file and line of this change.
 - It names a concrete consequence (these inputs or this state, then this wrong result or cost),
   or a profile rule, together with the code or precedent that shows it applies: for duplication,
-  the other place; for cost, what grows and for whom.
+  the other place; for cost, what grows and for whom. A profile rule that matches the code is
+  enough for a `question`, even without a consequence: reviewers ask about design they would
+  have done differently.
 - You checked the code around it, and the issue isn't already handled elsewhere in the change or
   the repository.
 - The reviewers would plausibly raise it. If you wouldn't bet they do, drop it.
+
+Existing code that does the same thing is not a reason to drop a finding a profile rule supports.
+Reviewers ask about the code in front of them, not about what the repository already has. Keep
+the finding and name the precedent in **Why**, so the author can answer with it. Drop it only if
+the profile itself says that precedent settles it.
 
 Rank by how likely the reviewers are to block on it. Report at most seven findings. An empty review
 is a good result: if nothing clears the bar, say so in one line.
